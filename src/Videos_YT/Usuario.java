@@ -7,7 +7,7 @@ public class Usuario extends Videos_YT.Pessoa {
     public Usuario(String nome, int idade, char sexo, String login, int assistidos) {
         super(nome, idade, sexo);
         this.login = login;
-        this.totAssistidos = 1;
+        this.totAssistidos = assistidos;
     }
 
 public void viuMaisUm(){
