@@ -2,7 +2,7 @@ package Videos_YT;
 
 public class Video implements Videos_YT.AcoesVideo {
     private String titulo;
-    private int curtidas, visualizacoes, avaliacoes;
+    private int curtidas, visualizacoes, avaliacoes, totavaliacoes, qntavaliacoes;
     private boolean reproduzindo;
 
     public Video(String titulo) {

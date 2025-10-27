@@ -10,10 +10,10 @@ public class Reproducao {
     }
 
     public void avaliar(){
-        this.filme.setAvaliacoes(5);
+        this.filme.setAvaliacoes(this.filme.getAvaliacoes() + 5);
     }
     public void avaliar(int nota){
-        this.filme.setAvaliacoes(nota);
+        this.filme.setAvaliacoes(this.filme.getAvaliacoes() + nota);
     }
     public void avaliar(float porc){
         int tot = 0;
@@ -26,7 +26,7 @@ public class Reproducao {
         }else{
             tot = 10;
         }
-        this.filme.setAvaliacoes(tot);
+        this.filme.setAvaliacoes(this.filme.getAvaliacoes() + tot);
     }
 
     public Usuario getEspectador() {
